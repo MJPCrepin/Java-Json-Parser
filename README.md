@@ -13,9 +13,7 @@ The parser (parser.cup) will then interpret the JSON to check for correct syntax
 
 Test folder contains separate case tests, [borrowed from James Alastair McLaughlin](https://github.com/udp/json-parser/tree/master/tests).
 
-_Coursework for module GC04 (compilers part) in MSc Computer Science at UCL_
-_Builder & task provided by Rae Harbird (r.harbird@ucl.ac.uk)_
-_Parser & Lexer by Manuel Crepin (manuel.crepin.16@ucl.ac.uk) & Nidhi Goel (nidhi.goel.16@ucl.ac.uk)_
+_Coursework for module GC04 (compilers part) in MSc Computer Science at UCL. Builder & task provided by Rae Harbird (r.harbird@ucl.ac.uk). Parser & Lexer by Manuel Crepin (manuel.crepin.16@ucl.ac.uk) & Nidhi Goel (nidhi.goel.16@ucl.ac.uk)_.
 
 Install
 ---
@@ -27,13 +25,13 @@ Requirements:
 
 Assuming the proper JDK is installed:
 
-1) Install Apache Ant (to build the parser)
-	sudo apt install ant
+1) Install Apache Ant (to build the parser)  
+	`sudo apt install ant`
 
-2) Build using Ant (from root folder of parser)
-	ant jar
+2) Build using Ant (from root folder of parser)  
+	`ant jar`
 
-3) Run tests (default contains definitive JSON test case)
-	java -jar jar/Compiler.jar input.test 
+3) Run tests (default contains definitive JSON test case)  
+	`java -jar jar/Compiler.jar input.test`
 
 Parser will specify whether parse was successful, or at which line(s) the error is.
